@@ -17,7 +17,7 @@ app.use(express.json());
 // ================================================================================
 // ROUTER
 
-// require("./public/assets/js/apiNotes")(app);
+require("./public/assets/js/apiNotes")(app);
 require("./public/assets/js/htmlRoutes")(app);
 
 
